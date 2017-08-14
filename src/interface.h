@@ -66,7 +66,6 @@ void change_list_store_view(void);
 void create_list_store(void);
 
 GtkWidget* create_main_window (void);
-GtkWidget* create_taskpopup (void);
 GtkWidget* create_mainmenu (void);
 GtkWidget *create_prio_submenu(void);
 

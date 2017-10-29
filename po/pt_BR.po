@@ -73,8 +73,8 @@ msgstr "Memória: usados %d MB de %d MB"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "Uso de CPU: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "Uso de CPU: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"
@@ -247,5 +247,5 @@ msgstr "Erro"
 msgid "Confirm"
 msgstr "Confirmar"
 
-#~ msgid "%0.0f %%"
-#~ msgstr "%0.0f %%"
+#~ msgid "%0.1f %%"
+#~ msgstr "%0.1f %%"

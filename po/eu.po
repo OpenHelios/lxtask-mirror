@@ -70,7 +70,7 @@ msgstr "Memoria: %d MB erabiliak %d MBtik"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
 msgstr "PUZ erabilera: %%%0.0f"
 
 #: ../src/interface.c:70
@@ -239,5 +239,5 @@ msgstr "Errorea"
 msgid "Confirm"
 msgstr "Berretsi"
 
-#~ msgid "%0.0f %%"
+#~ msgid "%0.1f %%"
 #~ msgstr "%% %0.0f "

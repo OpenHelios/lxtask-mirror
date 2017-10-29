@@ -69,8 +69,8 @@ msgstr "Pamäť: využitých %d MB z %d MB"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "Využitie CPU: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "Využitie CPU: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

@@ -69,8 +69,8 @@ msgstr "זיכרון: %d מ״ב מתוך %d מ״ב בשימוש"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "ניצול המעבד: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "ניצול המעבד: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

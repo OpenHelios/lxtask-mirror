@@ -70,8 +70,8 @@ msgstr "استخدام الذاكرة: %d م.بايت من %d م.بايت مست
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "استخدام المعالج: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "استخدام المعالج: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

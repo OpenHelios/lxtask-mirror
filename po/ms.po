@@ -69,8 +69,8 @@ msgstr "Ingatan: %d MB dari %d MB digunakan"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "Penggunaan CPU: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "Penggunaan CPU: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

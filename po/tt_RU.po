@@ -68,8 +68,8 @@ msgstr "Хәтер: %d MБ %d MБ'тан куллануда"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "Процессор: %0.0f %% куллануда"
+msgid "CPU usage: %0.1f %%"
+msgstr "Процессор: %0.1f %% куллануда"
 
 #: ../src/interface.c:70
 msgid "_File"

@@ -71,8 +71,8 @@ msgstr "Muisti: %d Mt/%d Mt käytössä"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "CPU:n käyttö: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "CPU:n käyttö: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"
@@ -242,5 +242,5 @@ msgstr "Virhe"
 msgid "Confirm"
 msgstr "Vahvista"
 
-#~ msgid "%0.0f %%"
-#~ msgstr "%0.0f %%"
+#~ msgid "%0.1f %%"
+#~ msgstr "%0.1f %%"

@@ -68,8 +68,8 @@ msgstr "ਮੈਮੋਰੀ: %2$d MB ਵਿੱਚੋਂ %1$d  ਵਰਤੀ"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "CPU ਵਰਤੋਂ: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "CPU ਵਰਤੋਂ: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

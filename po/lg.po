@@ -71,8 +71,8 @@ msgstr "Ggwanika: MB %d ku MB %d ze zikozesebwa"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "Okukulusana kw'ekitundu ekibazi: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "Okukulusana kw'ekitundu ekibazi: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

@@ -70,7 +70,7 @@ msgstr "%d kB av %d kB brukt"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
 msgstr ""
 
 #: ../src/interface.c:70
@@ -237,5 +237,5 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#~ msgid "%0.0f %%"
-#~ msgstr "%0.0f %%"
+#~ msgid "%0.1f %%"
+#~ msgstr "%0.1f %%"

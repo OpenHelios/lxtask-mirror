@@ -70,8 +70,8 @@ msgstr "یاداشت: %d م.ب برائے %d م.ب استعمال کردہ"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "سی پی یو استعمال: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "سی پی یو استعمال: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

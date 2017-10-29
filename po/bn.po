@@ -70,8 +70,8 @@ msgstr "মেমরি: %d MB এর %d MB ব্যবহৃত হয়েছ�
 # snigdha
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "CPU usage: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "CPU usage: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

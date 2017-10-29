@@ -223,7 +223,7 @@ void create_list_store(void)
     column = gtk_tree_view_column_new_with_attributes(_("CPU%"), cell_renderer, "text", COLUMN_TIME, NULL);
     gtk_tree_view_column_set_resizable(column, TRUE);
     gtk_tree_view_column_set_sort_column_id(column, COLUMN_TIME);
-    gtk_tree_sortable_set_sort_func(GTK_TREE_SORTABLE(list_store), COLUMN_TIME, compare_int_list_item, (void *)COLUMN_TIME, NULL);
+    gtk_tree_sortable_set_sort_func(GTK_TREE_SORTABLE(list_store), COLUMN_TIME, compare_float_list_item, (void *)COLUMN_TIME, NULL);
     gtk_tree_view_append_column(GTK_TREE_VIEW(treeview), column);
 
     column = gtk_tree_view_column_new_with_attributes(_("RSS"), cell_renderer, "text", COLUMN_RSS, NULL);
@@ -471,7 +471,7 @@ void fill_list_item(guint i, GtkTreeIter *iter)
         gtk_tree_store_set(GTK_TREE_STORE(list_store), iter, COLUMN_RSS, size_to_string(buf, (task->rss)*1024), -1);
 
         gtk_tree_store_set(GTK_TREE_STORE(list_store), iter, COLUMN_UNAME, task->uname, -1);
-        sprintf(buf,"%0d%%", (guint)task->time_percentage);
+        sprintf(buf,"%0.1f %%", task->time_percentage);
         gtk_tree_store_set(GTK_TREE_STORE(list_store), iter, COLUMN_TIME, buf, -1);
         sprintf(buf,"%d",task->prio);
         gtk_tree_store_set(GTK_TREE_STORE(list_store), iter, COLUMN_PRIO, buf, -1);    /* my change */
@@ -552,6 +552,30 @@ gint compare_int_list_item(GtkTreeModel *model, GtkTreeIter *iter1, GtkTreeIter 
     g_free(s2);
 
     return ret;
+}
+
+gint compare_float_list_item(GtkTreeModel *model, GtkTreeIter *iter1, GtkTreeIter *iter2, gpointer column)
+{
+    gchar *s1;
+    gchar *s2;
+
+    gtk_tree_model_get(model, iter1, column, &s1, -1);
+    gtk_tree_model_get(model, iter2, column, &s2, -1);
+
+    gfloat f1 = 0;
+    gfloat f2 = 0;
+
+    if(s1 != NULL)
+        f1 = atof(s1);
+    if(s2 != NULL)
+        f2 = atof(s2);
+
+    g_free(s1);
+    g_free(s2);
+
+    gfloat ret = f1 - f2;
+
+    return ret < 0 ? -1 : (0 == ret ? 0 : 1);
 }
 
 gint compare_size_list_item(GtkTreeModel *model, GtkTreeIter *iter1, GtkTreeIter *iter2, gpointer column)

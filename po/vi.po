@@ -69,8 +69,8 @@ msgstr "Bộ nhớ: %d MB trong %d MB đã sử dụng"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "Mức sử dụng CPU: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "Mức sử dụng CPU: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

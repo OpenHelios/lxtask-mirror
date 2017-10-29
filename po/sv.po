@@ -69,8 +69,8 @@ msgstr "Minne: %d MB av %d MB används"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "Processoranvändning: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "Processoranvändning: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

@@ -69,8 +69,8 @@ msgstr "内存：%2$d MB 中的 %1$d MB 已使用"
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "CPU 使用率：%0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "CPU 使用率：%0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"

@@ -69,8 +69,8 @@ msgstr "మెమోరీ: %d MB కిగానూ %d MB వాడబడిం
 
 #: ../src/functions.c:156
 #, c-format
-msgid "CPU usage: %0.0f %%"
-msgstr "CPU వాడుక: %0.0f %%"
+msgid "CPU usage: %0.1f %%"
+msgstr "CPU వాడుక: %0.1f %%"
 
 #: ../src/interface.c:70
 msgid "_File"
